@@ -3,10 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayyar -CV</title>
+    <title>CV</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        header {
+            background-color: #f7f7f7;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #000000;
+            margin-top: 0;
+        }
+        h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            padding: 20px;
+            background-color: #f7f7f7;
+            color: #000000;
+            border-radius: 0 0 10px 10px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+            font-size: 18px;
+            margin-top: 0;
+        }
+        .contact-info p:last-child {
+            margin-bottom: 0;
+        }
+        .contact-info p span {
+            font-weight: bold;
+        }
+        a {
+            color: #00b3e9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Dr. Nayyar Ahmed Khan</h1>
-    <h2>Curriculm Vitae</h2>
+    <div class="container">
+        <header>
+            <h1>Hisham alsaif</h1>
+        </header>
+        <div class="main-content">
+            <div class="section" id="academic-info">
+                <h2>Academic Information</h2>
+                <p>Bachelor of Information System</p>
+                <p>Shaqra University</p>
+            </div>
+            <div class="section" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Vehicle Rental System Project</li>
+                    <li>Creating and organizing a data base for company</li>
+                    <li>Scheduling Tasks of company employees</li>
+                </ul>
+            </div>
+            <div class="section" id="personal-info">
+                <h2>Personal Information</h2>
+                <p>Name: Hisham abdulaziz alsaif</p>
+                <p>Date of birth: Aprail 1 2003</p>
+                <p>email: HishamAlsaif2@hotmail.com</p> 
+                <p>Phone: 0550887443</p>
+            </div>
+            <div class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: Python,JavaScript,c++</li>
+                    <li>Soft Skills: Problem solving - multitasking - teamwork </li>
+                    <li>Web Development Tools: HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="section" id="certifications">
+                <h2>Certifications</h2>
+                <p>PCAP: Programming Essentials in Python(cisco)</p>
+                <p>Java Programmer Certification (Oracle)</p>
+            </div>
+            <div class="section" id="social-links">
+                <h2>Social Network links</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/hisham-alsaif-135504309/">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><span>Phone:</span> 0550887443</p>
+            <p><span>Email:</span> HishamAlsaif2@hotmail.com</p>
+        </div>
+    </div>
 </body>
 </html>
